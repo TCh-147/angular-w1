@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: "Segoe UI";
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    transform: scale(0.7);
+    /* flex-shrink: 1; */
+}
+
+.info{
+    flex-grow: 0.2;
+    font-weight: bold;
+    max-width: 26rem;
+    font-weight: 400;
+}
+
+.accordion{
+    padding: 0.5rem 0rem;
+    margin: 0.5rem 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.accordion::after{
+    content: '\27A2';
+    outline: none;
+    float: right;
+    margin-right: 0.2rem;
+    transform: rotateZ(90deg);
+}
+
+.accordion:hover{
+    cursor: pointer;
+    background-color: #fad5d2;
+}
+
+#info{
+    text-indent: 5%;
+}
+
+#hobbies{
+    text-indent: 5%;
+}
+
+#creator{
+    text-indent: 5%;
+}
+
+#channel{
+    text-indent: 5%;
+}
+
+#fund{
+    text-indent: 5%;
+}
